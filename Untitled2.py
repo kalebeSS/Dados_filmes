@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
 import pandas as pd
 
 #Adquirindo a Tabela de filmes e limpandos os dados zerados
@@ -16,8 +13,6 @@ data.rename(columns={'Bilheteria (US$)': 'Bilheteria'}, inplace=True)
 bilheteria = data['Bilheteria'].str.replace(' ', '')
 bilheteria
 
-
-# In[ ]:
 
 
 
