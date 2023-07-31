@@ -2,7 +2,7 @@
 # coding: utf-8
 
 import pandas as pd
-
+ 
 #Adquirindo a Tabela de filmes e limpandos os dados zerados
 
 url = "https://pt.wikipedia.org/wiki/Lista_de_filmes_de_maior_bilheteria"
